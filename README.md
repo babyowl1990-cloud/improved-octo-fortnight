@@ -4,6 +4,7 @@ A VR-only highway cruising / traffic-weaving game. All four requested
 systems are wired together and playable end to end: drive a lit,
 multi-lane night highway, weave through AI traffic without colliding,
 build a near-miss score multiplier, crash, and restart.
+(thanks to cluade)
 
 ## Folder structure
 
