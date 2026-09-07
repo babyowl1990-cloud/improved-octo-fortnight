@@ -28,7 +28,7 @@ No build step. `npm`/`node_modules` were only ever used transiently to
 pull exact Three.js build files during scaffolding — not required to run
 the game, and not included in this zip.
 
-## Running it
+## Running it -CMD-
 
 1. **Serve the folder** (WebXR needs a secure context; plain
    `http://localhost` counts, no TLS cert needed):
@@ -43,6 +43,7 @@ the game, and not included in this zip.
 3. **Real headset (e.g. Quest):** `adb reverse tcp:8080 tcp:8080` after
    plugging in via USB, then open `http://localhost:8080` in the Quest
    Browser and tap **Enter VR**.
+4. press Ctrl-C on CMD to end `http://localhost:8080` 
 
 ## Running the tests
 
