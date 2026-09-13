@@ -5,6 +5,8 @@ systems are wired together and playable end to end: drive a lit,
 multi-lane night highway, weave through AI traffic without colliding,
 build a near-miss score multiplier, crash, and restart.
 
+⚠️ don't do sharp turns because it throw you off the map and quickly leave the tap and rejoin when this happens this is still on works...
+
 ## Folder structure
 
 ```
