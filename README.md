@@ -1,4 +1,4 @@
-# Highway VR Racer — complete scaffold
+# Highway VR Racer — complete scaffold (on works...)
 
 A VR-only highway cruising / traffic-weaving game. All four requested
 systems are wired together and playable end to end: drive a lit,
