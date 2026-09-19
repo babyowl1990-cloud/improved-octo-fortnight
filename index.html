@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Highway VR Racer — Physics Test Harness</title>
+<style>
+  @font-face {
+    font-family: 'Orbitron';
+    font-weight: 500;
+    src: url('./vendor/fonts/orbitron-latin-500-normal.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Orbitron';
+    font-weight: 700;
+    src: url('./vendor/fonts/orbitron-latin-700-normal.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Orbitron';
+    font-weight: 900;
+    src: url('./vendor/fonts/orbitron-latin-900-normal.woff2') format('woff2');
+  }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #05070a; }
+  canvas { display: block; }
+  #hud {
+    position: fixed; top: 12px; left: 12px; z-index: 2;
+    font: 13px/1.4 ui-monospace, Menlo, Consolas, monospace;
+    color: #7ef7ff; background: rgba(5,10,14,0.55); padding: 10px 14px;
+    border: 1px solid rgba(126,247,255,0.35); border-radius: 6px;
+    pointer-events: none; white-space: pre;
+  }
+</style>
+</head>
+<body>
+<div id="hud">loading…</div>
+
+<!-- Vendored locally (see /vendor/three) — no CDN calls, works fully offline
+     and on a headset with no network connection once the folder is served. -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/build/three.module.min.js",
+    "three/addons/": "./vendor/three/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
