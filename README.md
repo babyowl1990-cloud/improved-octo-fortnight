@@ -5,6 +5,8 @@ requested systems are wired together and playable end to end, on top of
 a full visual pass: a detailed car model (shared between player and
 traffic), a textured/detailed environment, and an in-car settings menu.
 
+Heads up: there are rendering issues sorry...
+
 ## Folder structure
 
 ```
